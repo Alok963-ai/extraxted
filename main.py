@@ -52,9 +52,9 @@ plugins = dict(root="plugins")
 if __name__ == "__main__" :
     bot = Client(
         "StarkBot",
-        bot_token=os.environ.get("BOT_TOKEN"),
-        api_id=int(os.environ.get("API_ID")),
-        api_hash=os.environ.get("API_HASH"),
+        bot_token=os.environ.get("7827028145:AAGNcXFT5i4rQVHazLXdQqwPtF7D3Hg0ZOM"),
+        api_id=int(os.environ.get("20288951")),
+        api_hash=os.environ.get("e8cb5fb7a475b5f5eb3b0ef0e6ca03a8"),
         sleep_threshold=20,
         plugins=plugins,
         workers = 50
