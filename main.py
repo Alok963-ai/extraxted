@@ -53,7 +53,7 @@ if __name__ == "__main__" :
     bot = Client(
         "StarkBot",
         bot_token=os.environ.get("7993028871:AAGq3_hsSxR-0blrZ_yPsXDsB2EBhR1Q0ZI"),
-        api_id=int(os.environ.get("20288951")),
+        api_id=os.environ.get("20288951"),
         api_hash=os.environ.get("e8cb5fb7a475b5f5eb3b0ef0e6ca03a8"),
         sleep_threshold=20,
         plugins=plugins,
